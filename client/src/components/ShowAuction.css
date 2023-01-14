@@ -1,0 +1,87 @@
+.showAuctionContainer{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+
+ 
+}
+
+.showDetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 89%;
+    height: 40%;
+    transform: translateX(2rem);
+    background: rgba(233, 192, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    padding: 1rem;
+    margin: 1rem;
+}
+.showDetailImg {
+    width: 40%;
+    height: 100%;
+    border: 2px solid #000;
+    padding: 1rem;
+    border-radius: 30px;
+
+    background: rgba(233, 192, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+}
+.showDetailImg img{
+    height: 100%;
+    width: 100%;
+    object-fit: fill;
+    border-radius: 30px;
+    
+}
+.showDetailContainer li{
+   padding: 1rem 0rem;
+
+}
+.showAuctionContainer ul{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    border: 2px solid #000;
+    padding: 1rem;
+    border-radius: 30px;
+
+}
+
+
+.showAuctionTable{
+    transform: translateX(2rem);
+    
+    height: 20%;
+    background: rgba(233, 192, 255, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border: 2px solid rgba(255, 255, 255, 0.3);
+
+
+
+}
+.showAuctionTable tr{
+    display: flex;
+    justify-content: space-around;
+}
+.showAuctionTable .etherData{
+    width:7rem;
+}
+.showAuctionTable .etherData .etherId{
+    /* width: 9rem; */
+}
